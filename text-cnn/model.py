@@ -4,6 +4,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 class TextCNN(nn.Module):
+    # 多通道textcnn
     def __init__(self, args):
         super(TextCNN, self).__init__()
         self.args = args
